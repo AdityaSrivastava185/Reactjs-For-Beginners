@@ -1,14 +1,12 @@
 import "./App.css";
-import Usestate_hook from "./components/Usestate_hook";
-import UseEffect_hook from "./components/UseEffect_hook";
+import Usestate_hooks from "./components/Usestate_hooks";
 
 
 function App() {
   
   return (
     <>
-      <Usestate_hook/>
-      <UseEffect_hook/>
+      <Usestate_hooks/>
     </>
   );
 }

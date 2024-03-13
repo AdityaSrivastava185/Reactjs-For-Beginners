@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 // In this program we are understanding the concept of "useState" hook by making a basic counter value program
 
-function Usestate_hook() {
+function Usestate_hooks() {
 
   // using "useState" hook to update the value
   let [value, setValue] = useState(0);
@@ -10,7 +10,6 @@ function Usestate_hook() {
   // function to increase the value by 1
   let addVlaue = () => {
     setValue(value + 1);
-    console.log(value);
   };
 
   //function to decrease the value by 1
@@ -42,4 +41,4 @@ function Usestate_hook() {
   )
 }
 
-export default Usestate_hook
+export default Usestate_hooks
