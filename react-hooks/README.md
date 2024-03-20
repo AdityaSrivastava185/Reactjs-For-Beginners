@@ -17,6 +17,36 @@ React Hooks provide a modern approach to managing state and side effects in func
 ### useState
 
 The `useState` hook allows components to use state variables. It returns a stateful value and a function to update it.
+```jsx
+import React, { useState } from 'react';
+
+function MyComponent() {
+  // Declare a state variable named "count" and initialize it to 0
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      {/* Button to increment the count */}
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+export default MyComponent;
+
+```
+<ol>
+  <li>We import the useState hook from react</li>
+  <li>Initialise the count varibale to decalre a value and a setCount variable which is a function to update the state of the count variable</li>
+  <li>To declare the value of the count variable initially , Give the initial value to isnide of the useState() function , which is 0 in this code</li>
+  <li>Inside the return function , To update the value when the button is clicked , we make a function and inside of the function update the value of the count 
+  by using setCount function
+  </li>
+  <li>Now , whenever the button will be clicked then the count will be increased by 1 </li>
+</ol>
 
 ### useEffect
 
