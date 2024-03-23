@@ -17,6 +17,8 @@ React Hooks provide a modern approach to managing state and side effects in func
 ### useState
 
 The `useState` hook allows components to use state variables. It returns a stateful value and a function to update it.
+
+`Syntax to write the useEffect hook in reactjs -`
 ```jsx
 import React, { useState } from 'react';
 
@@ -51,6 +53,40 @@ export default MyComponent;
 ### useEffect
 
 The `useEffect` hook enables components to perform side effects. It runs after every render by default and can optionally clean up after itself.
+
+`Syntax to write the useEffect hook in reactjs - `
+
+```jsx
+import React, { useState, useEffect } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  // Fetch a random fact only once on initial render
+  useEffect(() => {
+    const fetchRandomFact = async () => {
+      const response = await fetch('https://uselessfacts.jspro.com/api/v1/random');
+      const data = await response.json();
+      console.log('Random fact:', data.text); // Replace with UI update for the fact
+    };
+
+    fetchRandomFact();
+  }, []); // Empty dependency array: fetch fact only once
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+export default Counter;
+```
+<ol>
+<li>Import the useState and useEffect hook from react</li>
+<li>The useEffect hook is fetching the random jokes from the api</li>
+<li>The empty array [] that effect runs only once after the intial render </li>
+<li>We return the jsx element to increment the count by clicking on the count button</li>
+</ol>
 
 ### useContext
 
