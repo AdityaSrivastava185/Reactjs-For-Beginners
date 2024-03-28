@@ -65,13 +65,7 @@ Remember, components are the heart of React development. Happy coding! 🚀
 To explore , you can check below sources to understand `components`
 
 For more detailed explanations and examples, check out these resources:
-- [React Components - GeeksforGeeks](https://www.geeksforgeeks.org/reactjs-components/) ¹
-- [Understanding React Components - Medium](https://medium.com/the-andela-way/understanding-react-components-37f841c1f3bb) ²
-- [React Components - W3Schools](https://www.w3schools.com/react/react_components.asp) ³
-- [React Fundamentals – JSX, Components, and Props Explained](https://www.freecodecamp.org/news/react-fundamentals/) ⁴
-
-
-(1) React Components - GeeksforGeeks. https://www.geeksforgeeks.org/reactjs-components/.
-(2) Understanding React Components - Medium. https://medium.com/the-andela-way/understanding-react-components-37f841c1f3bb.
-(3) React Components - W3Schools. https://www.w3schools.com/react/react_components.asp.
-(4) React Fundamentals – JSX, Components, and Props Explained. https://www.freecodecamp.org/news/react-fundamentals/.
+- [React Components - GeeksforGeeks](https://www.geeksforgeeks.org/reactjs-components/) 
+- [Understanding React Components - Medium](https://medium.com/the-andela-way/understanding-react-components-37f841c1f3bb) 
+- [React Components - W3Schools](https://www.w3schools.com/react/react_components.asp) 
+- [React Fundamentals – JSX, Components, and Props Explained](https://www.freecodecamp.org/news/react-fundamentals/) 
