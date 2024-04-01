@@ -115,9 +115,6 @@ Once your React app is ready, you'll need to deploy it to a hosting provider to 
 - [React Router Documentation](https://reactrouter.com/web/guides/quick-start): Official documentation for React Router.
 - [Redux Documentation](https://redux.js.org/introduction/getting-started): Official documentation for Redux state management.
 - [Context API Documentation](https://reactjs.org/docs/context.html): Official documentation for React Context API.
-- [Jest Documentation](https://jestjs.io/docs/en/getting-started): Official documentation for Jest testing framework.
-- [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/): Official documentation for React Testing Library.
-
 ---
 
 Feel free to explore the provided resources and examples to learn more about React and start building your own React applications! Happy coding! 🚀🎉
