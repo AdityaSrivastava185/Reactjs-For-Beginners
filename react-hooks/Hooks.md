@@ -89,8 +89,47 @@ export default Counter;
 </ol>
 
 ### useContext
+<ol>
+  <li>The UseContext hook provides a way to access context in functional components. It accepts a context object and returns the current context value.</li>
+  <li>The UseContext hook is used to consume values from a React context.Context provides a way to pass data through the component tree without having to pass props manually at every level.</li>
+</ol>
 
-The `useContext` hook provides a way to access context in functional components. It accepts a context object and returns the current context value.
+
+`Syntax to write the useContext hook in reactjs - `
+
+
+```jsx
+import React, { createContext, useContext } from "react";
+
+
+const Context = createContext();
+
+
+const App = () => {
+  return (
+    <Context.Provider value={{ data: "Data from context!" }}>
+      <Child5 />
+    </Context.Provider>
+  );
+};
+
+
+const Child5 = () => {
+  const context = useContext(Context);
+  return <div>{context.data}</div>;
+};
+
+
+export default App;
+```
+<ol>
+  <li>We create a context using the createContext function and provide an initial value for it. </li>
+  <li>In the App component, we wrap the Child component tree with the Context.Provider component and pass the context value as the value prop.</li>
+  <li>The Child5 component uses the useContext hook to consume the context value and render it in its markup.</li>
+  <li>The Child5 component is a child of the App component, it has access to the context value and can render it without the need for prop-drilling.</li>
+</ol>
+
+
 
 ## Additional Hooks
 
