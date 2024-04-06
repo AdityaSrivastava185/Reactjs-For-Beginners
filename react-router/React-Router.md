@@ -43,7 +43,7 @@ React router is used to make mult-page application in react . React router is a 
     - install the node module package using the command ` npm install `
     - To start the localhost server use the command ` npm run dev `
 
-2. ** Follow the steps to remove conetent ** -
+2. **Follow the steps to remove conetent** -
     - Remove the pre-written code from the ` App.jsx ` file
     - Your `App.js` should look like this
 
@@ -59,12 +59,12 @@ export default function App() {
   )
 ```
 
-3. ** Install React-router ** - 
+3. **Install React-router** - 
     - open the terminal 
     - Install the react-router library in your current project 
     - Uisng the command ` npm install react-router-dom `
 
-4. ** Add the code to `App.jsx` file ** - 
+4. **Add the code to `App.jsx` file** - 
     - Update the existing code to the following code in ` App.jsx ` file inside the ` src ` folder
     - Add the following code 
 ```jsx
@@ -81,7 +81,7 @@ function App() {
 }
 export default App
 ```
-5. ** Make `components` folder ** - 
+5. **Make `components` folder** - 
     - Make a folder named `components` inside the `src` folder
     - make multiple folders named `Home` , `About` , `Contact` inside the `components` folder
     - Inside the `Home` folder , make a file called `Home.jsx` file
