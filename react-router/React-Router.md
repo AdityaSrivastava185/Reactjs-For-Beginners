@@ -66,50 +66,27 @@ export default function App() {
 
 4. ** Add the code to `App.jsx` file ** - 
     - Update the existing code to the following code in ` App.jsx ` file inside the ` src ` folder
+    - Add the following code 
 ```jsx
-import React from "react";
-import "./index.css"
+import { useState } from 'react'
+import './App.css'
 
-export default function App() {
+function App() {
+  const [count, setCount] = useState(0)
   return (
-    <main>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-        </nav>
-     </main>
-  );
-}
-// Home Page
-const Home = () => (
-  <Fragment>
-    <h1>Home</h1>
-    <FakeText />
-  </Fragment>
-  );
-// About Page
-const About = () => (
-  <Fragment>
-    <h1>About</h1>
-    <FakeText />
-  </Fragment>
-  );
-// Contact Page
-const Contact = () => (
-  <Fragment>
-    <h1>Contact</h1>
-    <FakeText />
-  </Fragment>
-  );
-
-const FakeText = () => (
-  <p>
-  This is react-router dom example
-  </p>
+    <>
+    <h1>React-Router</h1>
+    </>
   )
+}
+export default App
 ```
-4. ** Setting up the router ** - 
-    - Import `BrowserRouter` using the command `import { BrowserRouter as Router } from "react-router-dom";`
+5. ** Make `components` folder ** - 
+    - Make a folder named `components` inside the `src` folder
+    - make multiple folders named `Home` , `About` , `Contact` inside the `components` folder
+    - Inside the `Home` folder , make a file called `Home.jsx` file
+    - Inside the `About` folder , make a file called `About.jsx` file
+    - Inside the `Contact` folder , make a file called `Contact.jsx` file
+    - Add the below code inside your `Home.jsx` file
+    - Import `NavLink` from `react-router-dom`
+    - similarly make the changes in the other files which are `About.jsx` and `Contact.jsx`
