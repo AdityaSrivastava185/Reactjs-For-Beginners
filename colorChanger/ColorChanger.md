@@ -45,10 +45,10 @@ content: [
 @tailwind components;
 @tailwind utilities;
 ```
-3. **Create a folder `component` inside the `src` folder - 
+3. **Create a folder `component` inside the `src` folder** - 
     - This folder will contain the color component and functionalities of handling the event 
 
-4. **Create a file called `ColorPicker.jsx` inside the component folder
+4. **Create a file called `ColorPicker.jsx` inside the component folder**
     - This file will contain the code for the color picker code and the functionalities of the project
 
 ```jsx
