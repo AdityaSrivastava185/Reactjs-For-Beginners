@@ -4,89 +4,142 @@
 
 React router is used to make mult-page application in react . React router is a third-party library for enabling the routing in the react applications
 
-### Benefits of react router -
+React Router is a crucial library for enabling routing in React applications. It allows you to manage multiple pages or views within a single-page application (SPA). This documentation aims to provide beginners with a step-by-step guide on how to set up and use React Router effectively.
+
+### Benefits of React Router
 
 1. **Single-Page Applications (SPAs)**:
-   - React Router enables the creation of dynamic, single-page applications (SPAs).
-   - SPAs load a single HTML page and dynamically update content without full page reloads.
-   - Smooth transitions between different views are achieved using React Router.
+   - React Router facilitates the development of SPAs, where content dynamically updates without full page reloads.
+   - Seamless transitions between different views enhance the user experience.
 
 2. **Enhanced User Experience**:
-   - Seamless Navigation: React Router allows users to move between different sections of your app without page refreshes.
-   - URLs Update: The URL changes as users navigate, providing a better user experience and allowing users to bookmark or share specific pages.
+   - Navigation is smooth, allowing users to move between sections of the application without page refreshes.
+   - URLs update dynamically as users navigate, improving bookmarking and sharing capabilities.
 
 3. **Efficient State Management**:
-   - React Router manages the URL and state of your application.
-   - You define potential URL patterns and associate UI components with each route.
-   - This decreases the amount of code needed to maintain state and simplifies adding new features.
+   - React Router manages both URL and application state, reducing complexity in state management.
+   - By associating UI components with specific routes, React Router simplifies feature addition and maintenance.
 
 4. **Modular and Maintainable Code**:
-   - React Router encourages a modular approach to routing.
-   - Routes are defined separately, making it easier to organize and structure your application.
-   - Nested routes allow you to create a hierarchy of components, improving code maintainability.
+   - Routes are defined separately, promoting a modular code structure.
+   - Nested routes enable hierarchical organization of components, enhancing code maintainability.
 
 5. **Dynamic Routing and Parameters**:
-   - Dynamic Routing: React Router supports dynamic routing, where parameters can be passed within the URL.
-   - For example, you can create user profiles with URLs like `/users/:username`.
-   - This flexibility is invaluable for building data-driven web applications.
+   - Supports dynamic routing where parameters can be passed within the URL.
+   - Dynamic routing facilitates the creation of data-driven web applications.
 
 6. **Essential Components**:
-   - **BrowserRouter**: Sets up the application's navigation context.
-   - **Route**: Defines individual routes and associates them with specific components.
-   - **Switch**: Ensures that only one route is rendered at a time.
+   - **BrowserRouter**: Sets up the navigation context for the application.
+   - **Route**: Defines individual routes and associates them with components.
+   - **Switch**: Ensures only one route is rendered at a time.
 
-### Setting up the project
+## Setting up the Project
 
-1. **Create a react project using vite bundler** - 
-    - Create the project using the command ` npm create vite@latest `
-    - Enter in the project directory by using the command ` cd <project-name> `
-    - install the node module package using the command ` npm install `
-    - To start the localhost server use the command ` npm run dev `
+1. **Create a React Project using Vite Bundler**:
+    - Use `npm create vite@latest` to create a Vite-based React project.
+    - Navigate to the project directory with `cd <project-name>`.
+    - Install dependencies with `npm install`.
+    - Start the development server with `npm run dev`.
 
-2. **Follow the steps to remove conetent** -
-    - Remove the pre-written code from the ` App.jsx ` file
-    - Your `App.js` should look like this
+2. **Remove Pre-written Code**:
+    - Remove existing code from `App.jsx`.
+    - Ensure `App.jsx` contains only the necessary structure.
 
- ```jsx
-import React from "react";
-import "./index.css"
+3. **Install React Router**:
+    - Use `npm install react-router-dom` to install React Router.
 
-export default function App() {
-  return (
-    <div>
-        <h1>React Router</h1>
-    </div>
-  )
-```
+4. **Update `App.jsx`**:
+    - Replace existing code in `App.jsx` with the following-
 
-3. **Install React-router** - 
-    - open the terminal 
-    - Install the react-router library in your current project 
-    - Uisng the command ` npm install react-router-dom `
-
-4. **Add the code to `App.jsx` file** - 
-    - Update the existing code to the following code in ` App.jsx ` file inside the ` src ` folder
-    - Add the following code 
 ```jsx
-import { useState } from 'react'
-import './App.css'
+import React from "react";
+import { BrowserRouter as Router, Route , Routes } from "react-router-dom";
+import Home from "./component/Home/Home";
+import About from "./component/About/About";
+import Contact from "./component/Contact/Contact";
+
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
-    <>
-    <h1>React-Router</h1>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
+    </Router>
+  );
 }
-export default App
+
+export default App;
+
 ```
-5. **Make `components` folder** - 
-    - Make a folder named `components` inside the `src` folder
-    - make multiple folders named `Home` , `About` , `Contact` inside the `components` folder
-    - Inside the `Home` folder , make a file called `Home.jsx` file
-    - Inside the `About` folder , make a file called `About.jsx` file
-    - Inside the `Contact` folder , make a file called `Contact.jsx` file
-    - Add the below code inside your `Home.jsx` file
-    - Import `NavLink` from `react-router-dom`
-    - similarly make the changes in the other files which are `About.jsx` and `Contact.jsx`
+
+5. **Create Components**:
+    - Inside the `src` folder, create a `components` folder.
+    - Within `components`, create folders named `Home`, `About`, and `Contact`.
+    - Inside each folder, create files named `Home.jsx`, `About.jsx`, and `Contact.jsx`, respectively.
+    - Add content to each file to represent the respective component's content.
+
+6. **Implement Navigation**:
+    - Within each component, use `NavLink` from `react-router-dom` to create navigation links in different components of the folder such as `Home.jsx` , `About.jsx` , `Contact.jsx`
+
+In `Home.jsx`:
+```jsx
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+const Home = () => {
+  return (
+    <div>
+      <h2>Home</h2>
+      <NavLink to="/about">About</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+    </div>
+  );
+};
+export default Home;
+```
+In `About.jsx`:
+```jsx
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+const About = () => {
+  return (
+    <div>
+      <h2>About</h2>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+    </div>
+  );
+};
+export default About;
+```
+In `Contact.jsx`:
+```jsx
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+const Contact = () => {
+  return (
+    <div>
+      <h2>Contact</h2>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/about">About</NavLink>
+    </div>
+  );
+};
+export default Contact;
+```
+
+In our `App.jsx` file:
+
+- We use `BrowserRouter as Router` to create the router context.
+- Inside `Routes`, we define multiple `Route` components.
+- Each `Route` has a `path` that defines the URL pattern it should match.
+- We use the `element` prop to specify the component to render when each route matches.
+- The `Home`, `About`, and `Contact` components are rendered based on the current URL path.
+
+This setup ensures that the correct component is rendered based on the user's navigation within the application.
+This is the way to use roting in the reactjs to create multi-page applications , we will look at advance concepts of reacct routing in the projects
