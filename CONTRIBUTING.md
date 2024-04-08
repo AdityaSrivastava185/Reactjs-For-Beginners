@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Thank you for considering contributing to our project! At the moment, the project is still under development, and `we are not accepting any external contributions` but we will support you to raise `new issues` to improve the repository. However, feel free to explore the codebase and documentation, and stay tuned for future updates when we open up contributions. Before getting started, please take a moment to review the following guidelines.
+Thank you for considering contributing to our project! At the moment, the project is still under development, and `we are accepting any external contributions` and we will support you to raise `new issues` to improve the repository. However, feel free to explore the codebase and documentation, and stay tuned for future updates when we open up contributions. Before getting started, please take a moment to review the following guidelines.
 
 
 ## Code of Conduct
