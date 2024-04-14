@@ -25,8 +25,10 @@ In React, components serve as the **building blocks** of any application. They a
    - More complex than functional components.
    - Can show inheritance and access data of other components.
    - Must include `extends React.Component`.
+   - May include lifecycle methods such as componentDidMount, componentDidUpdate, and componentWillUnmount for managing component lifecycle and side effects.
    - Example:
      ```jsx
+     import React from 'react';
      class Welcome extends React.Component {
        render() {
          return <h1>Hello, {this.props.name}!</h1>;
