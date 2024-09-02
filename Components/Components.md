@@ -1,5 +1,19 @@
 # React Components Explained
 
+
+## Table of Contents
+- [React Component ](#component-reconciliation)
+- [Component Reconciliation](#component-reconciliation)
+- [JSX - Syntactic Sugar](#jsx---syntactic-sugar)
+- [Hooks: Bringing State and Lifecycle to Functional Components](#hooks-bringing-state-and-lifecycle-to-functional-components)
+- [Component Lifecycle](#component-lifecycle)
+- [Render Props and Higher-Order Components (HOCs)](#render-props-and-higher-order-components-hocs)
+- [Context API for Prop Drilling](#context-api-for-prop-drilling)
+- [Concurrent Mode and Suspense](#concurrent-mode-and-suspense)
+- [Memoization with `React.memo` and `useMemo`](#memoization-with-reactmemo-and-usememo)
+- [Fragments](#fragments)
+- [Portals](#portals)
+
 In React, components serve as the **building blocks** of any application. They allow you to create reusable and modular pieces of UI. Let's dive into the world of React components:
 
 
@@ -63,25 +77,7 @@ function App() {
 - **Reusability**: Use the same component in multiple places.
 - **Maintainability**: Isolate logic and UI concerns.
 
-Remember, components are the heart of React development. Happy coding! 🚀
-To explore , you can check below sources to understand `components`
 
-# React Components Explained
-
-In React, components serve as the **building blocks** of any application. They allow you to create reusable and modular pieces of UI. Below are some unique and important aspects of React components that make them stand out:
-
-## Table of Contents
-
-- [Component Reconciliation](#component-reconciliation)
-- [JSX - Syntactic Sugar](#jsx---syntactic-sugar)
-- [Hooks: Bringing State and Lifecycle to Functional Components](#hooks-bringing-state-and-lifecycle-to-functional-components)
-- [Component Lifecycle](#component-lifecycle)
-- [Render Props and Higher-Order Components (HOCs)](#render-props-and-higher-order-components-hocs)
-- [Context API for Prop Drilling](#context-api-for-prop-drilling)
-- [Concurrent Mode and Suspense](#concurrent-mode-and-suspense)
-- [Memoization with `React.memo` and `useMemo`](#memoization-with-reactmemo-and-usememo)
-- [Fragments](#fragments)
-- [Portals](#portals)
   
 ## Component Reconciliation
 
