@@ -35,8 +35,8 @@ Each lesson includes documentation, practical examples, quizzes, and assignments
 ## Lessons 📜
 
 |     |        Project Name        |                      Concepts Taught                      | Learning Objectives                                                  |                      Linked Lesson                      |
-| :-: | :------------------------: | :-------------------------------------------------------: | -------------------------------------------------------------------- | :-----------------------------------------------------: | ---------------------- |
-| 01  |      Getting Started       |                 Basics of Git and github                  | Introduction to git and github and its core concepts                 |               [Intro to git and github]()               | (git-github/README.md) |
+| :-: | :------------------------: | :-------------------------------------------------------: | -------------------------------------------------------------------- | :-----------------------------------------------------: |
+| 01  |      Getting Started       |                 Basics of Git and github                  | Introduction to git and github and its core concepts                 |     [Intro to git and github](git-github/README.md)     |
 | 02  | Getting Started with react |                     Basics of reactjs                     | Introduction to reactjs and its core concepts                        | [Getting started with reactjs](react-basics/README.md)  |
 | 03  |      ReactJS and JSX       |                 ReactJS and JSX Concepts                  | Understanding JSX syntax and its usage in React.js                   |                   [Reactjs and JSX]()                   |
 | 04  |         Components         |                     React Components                      | Learn about creating and using components in React.js                |      [React Components](Components/Components.md)       |
