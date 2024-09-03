@@ -34,21 +34,21 @@ Each lesson includes documentation, practical examples, quizzes, and assignments
 
 ## Lessons 📜
 
-|   | Project Name | Concepts Taught | Learning Objectives | Linked Lesson |
-| :-: | :------------------------------------------------------: | :--------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------: |
-| 01 | Getting Started | Basics of Git and github | Introduction to git and github and its core concepts | [Intro to git and github]() |
-| 02 | Getting Started with react | Basics of reactjs | Introduction to reactjs and its core concepts | [Getting started with reactjs](react-basics/README.md) |
-| 03 | ReactJS and JSX | ReactJS and JSX Concepts | Understanding JSX syntax and its usage in React.js | [Reactjs and JSX]() |
-| 04 | Components | React Components | Learn about creating and using components in React.js | [React Components](Components/Components.md) |
-| 05 | Hooks | Hooks and it's types | Understanding hooks in React.js | [Hooks in React.js](react-hooks/Hooks.md) |
-| 06 | Virtual DOM | Understanding Virtual DOM in React.js | Concepts about virtual DOM in React.js | [Virtual DOM in React.js](virtual-dom/virtual-dom.md) |
-| 07 |Props | Porps in React.js | Implementing and Concepts of props in React.js | [Props in React.js](props/Props.md) |
-| 08 | BG Changer | BG Changer Project | Project to implement and understand the project in React.js | [bg-changer](colorChanger/ColorChanger.md) |
-| 09 | useEffect and useCallback | Understanding useEffect and useCallback hooks in React.js | Working with forms in React.js | [useEffect and useCallback hooks](react-hooks/Hooks.md) |
-| 10 | Custom Hooks | Custom Hooks in reactjs | Understanding Custom Hooks in React.js | [Custom Hooks in React.js]() |
-| 11 | Router | React-Router | Introduction to React-Router and their usage | [React-Router](react-router/React-Router.md) |
-| 12 | Context API | React Context API | Using Context API for state management in React.js | [Context API in React.js](contextAPI/ContextAPI.md) |
-| 13 | React-Redux-Toolkit | React-Redix-Toolkit State Management | Introduction to React-Redux-Toolkit for state management in React.js | [Redux in React.js]() |
+|     |        Project Name        |                      Concepts Taught                      | Learning Objectives                                                  |                      Linked Lesson                      |
+| :-: | :------------------------: | :-------------------------------------------------------: | -------------------------------------------------------------------- | :-----------------------------------------------------: |
+| 01  |      Getting Started       |                 Basics of Git and github                  | Introduction to git and github and its core concepts                 |     [Intro to git and github](git-github/README.md)     |
+| 02  | Getting Started with react |                     Basics of reactjs                     | Introduction to reactjs and its core concepts                        | [Getting started with reactjs](react-basics/README.md)  |
+| 03  |      ReactJS and JSX       |                 ReactJS and JSX Concepts                  | Understanding JSX syntax and its usage in React.js                   |                   [Reactjs and JSX]()                   |
+| 04  |         Components         |                     React Components                      | Learn about creating and using components in React.js                |      [React Components](Components/Components.md)       |
+| 05  |           Hooks            |                   Hooks and it's types                    | Understanding hooks in React.js                                      |        [Hooks in React.js](react-hooks/Hooks.md)        |
+| 06  |        Virtual DOM         |           Understanding Virtual DOM in React.js           | Concepts about virtual DOM in React.js                               |  [Virtual DOM in React.js](virtual-dom/virtual-dom.md)  |
+| 07  |           Props            |                     Porps in React.js                     | Implementing and Concepts of props in React.js                       |           [Props in React.js](props/Props.md)           |
+| 08  |         BG Changer         |                    BG Changer Project                     | Project to implement and understand the project in React.js          |       [bg-changer](colorChanger/ColorChanger.md)        |
+| 09  | useEffect and useCallback  | Understanding useEffect and useCallback hooks in React.js | Working with forms in React.js                                       | [useEffect and useCallback hooks](react-hooks/Hooks.md) |
+| 10  |        Custom Hooks        |                  Custom Hooks in reactjs                  | Understanding Custom Hooks in React.js                               |              [Custom Hooks in React.js]()               |
+| 11  |           Router           |                       React-Router                        | Introduction to React-Router and their usage                         |      [React-Router](react-router/React-Router.md)       |
+| 12  |        Context API         |                     React Context API                     | Using Context API for state management in React.js                   |   [Context API in React.js](contextAPI/ContextAPI.md)   |
+| 13  |    React-Redux-Toolkit     |           React-Redix-Toolkit State Management            | Introduction to React-Redux-Toolkit for state management in React.js |                  [Redux in React.js]()                  |
 
 ## Contribution Guidelines 😁
 
@@ -65,7 +65,7 @@ To contribute, please follow these guidelines:
 
 we will try to review your pull request and provide feedback or merge it if it meets our contribution standards.
 
-## Community and Support 
+## Community and Support
 
 Join our community of ReactJS learners and enthusiasts! Engage in discussions, ask questions, and share your experiences with fellow learners through contributions and in comments.
 
@@ -76,4 +76,3 @@ If you need any assistance or have questions about ReactJS fundamentals, don't h
 This repository is licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.
 
 ---
-
