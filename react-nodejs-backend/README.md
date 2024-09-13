@@ -1,13 +1,13 @@
 ## React Fullstack App
 This project consists of a simple full-stack application using Express.js for the backend and React.js for the frontend. The application demonstrates a basic setup for handling HTTP requests and displaying data.
 
-### Prerequisites
+## Prerequisites
 Before you begin, ensure you have the following installed on your system:
 
 - Node.js
 - npm
 
-### Setting Up the Backend
+## Setting Up the Backend
 Navigate to the backend directory in the terminal and set up the project:
 ```
 npm init -y
@@ -50,7 +50,7 @@ app.get("/api/users", (req, res) => {
 ```
 node ./index.js
 ```
-### Setting Up the Frontend:
+## Setting Up the Frontend:
 Navigate to the frontend directory and create the React app:
 ```
 cd frontend
@@ -94,5 +94,5 @@ export default App;
 ```
 Now, when you navigate to the frontend and open the console, you should see the array of users fetched from the backend.
 
-Conclusion
+## Conclusion
 This setup provides a basic structure for developing a full-stack application using Express and React. Further customization and functionality can be added as per project requirements.
