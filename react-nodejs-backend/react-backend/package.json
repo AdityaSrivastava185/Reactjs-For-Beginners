@@ -1,0 +1,13 @@
+{
+  "name": "react-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
