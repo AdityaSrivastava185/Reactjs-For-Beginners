@@ -1,0 +1,26 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Congratulations 🎉 on opening your first issue on this project , We appreciate the contribution and collaboration to improve the project ✨"
+        pr-message: "Congratulations 🎉 on making your first pull request ✅ , Each line of contributions matter for us , Thank you for your considerations for the project HAPPY-CONTRIBUTIONS🚀🎉"
+  pr-merged-greeting:
+          if: github.event.pull_request.merged == true
+          runs-on: ubuntu-latest
+          steps:
+          - name: Merge Greeting
+            uses: peter-evans/create-or-update-comment@v1
+            with:
+              token: ${{secrets.GITHUB_TOKEN}}
+              issue-number: ${{github.event.pull_request.number}}
+              body: "🎉 Your PR has been merged successfully , Thank you for contributing to the project ✨ We appreciate your efforts and look forward to more contributions from you in the project"
