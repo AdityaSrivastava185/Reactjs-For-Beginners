@@ -69,9 +69,8 @@ Single Page Applications (SPAs) often require client-side routing to navigate be
 
 ## State Management
 
-As your React applications grow in complexity, you may need more advanced state management solutions. Redux and Context API are two popular options for state management in React:
+As your React applications grow in complexity, you may need more advanced state management solutions. Context API are two popular options for state management in React:
 
-- **Redux**: A predictable state container for JavaScript apps. It helps manage the state of your application in a centralized store.
 - **Context API**: A feature introduced in React 16.3 for sharing state across multiple components without using props drilling.
 
 ## Testing React Components
@@ -113,7 +112,6 @@ Once your React app is ready, you'll need to deploy it to a hosting provider to 
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html): Official documentation for React.
 - [React Router Documentation](https://reactrouter.com/web/guides/quick-start): Official documentation for React Router.
-- [Redux Documentation](https://redux.js.org/introduction/getting-started): Official documentation for Redux state management.
 - [Context API Documentation](https://reactjs.org/docs/context.html): Official documentation for React Context API.
 ---
 
