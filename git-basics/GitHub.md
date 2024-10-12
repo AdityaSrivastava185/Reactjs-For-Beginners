@@ -238,7 +238,41 @@ To work on your forked repository locally:
    git clone https://github.com/your-username/git-tutorial.git
    ```
 2. Make changes as desired
-3. Commit and push your changes to your GitHub fork
+3. Commit and push your changes to your GitHub fork.
+
+### Adding Upstream Repository
+
+To keep your forked repository in sync with the original repository:
+
+1. Add the original repository as a remote:
+   ```
+   cd git-tutorial
+   ```
+2. Add the original repository as a remote:
+   ```
+   git remote add upstream https://github.com/yashksaini-coder/git-tutorial.git
+
+
+
+    
+### Fetching Changes from the Upstream Repository
+
+To fetch the latest changes from the original (upstream) repository:
+
+1. Fetch the latest updates from upstream:
+    ```
+    git fetch upstream
+    ``` 
+2. Merge the changes into your local repository:
+    ```
+    git merge upstream/main
+    ```
+3. Push the changes to your GitHub fork:
+    ``` 
+    git push
+    ```
+4. Your forked repository is now up-to-date with the original repository.
+
 
 ### Contributing Back to the Original Project
 
