@@ -47,8 +47,7 @@ Each lesson includes documentation, practical examples, quizzes, and assignments
 | 09 | useEffect and useCallback | Understanding useEffect and useCallback hooks in React.js | Working with forms in React.js | [useEffect and useCallback hooks](react-hooks/Hooks.md) |
 | 10 | Custom Hooks | Custom Hooks in reactjs | Understanding Custom Hooks in React.js | [Custom Hooks in React.js]() |
 | 11 | Router | React-Router | Introduction to React-Router and their usage | [React-Router](react-router/React-Router.md) |
-| 12 | Context API | React Context API | Using Context API for state management in React.js | [Context API in React.js](contextAPI/ContextAPI.md) |
-| 13 | React-Redux-Toolkit | React-Redix-Toolkit State Management | Introduction to React-Redux-Toolkit for state management in React.js | [Redux in React.js]() |
+| 12 | Context API | React Context API | Using Context API for state management in React.js | [Context API in React.js](contextAPI/ContextAPI.md)
 
 ## Contribution Guidelines 😁
 
