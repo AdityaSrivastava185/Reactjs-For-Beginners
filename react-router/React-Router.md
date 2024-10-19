@@ -174,7 +174,8 @@ const Profile = () => {
     </div>
   );
 };
-
+```
+```jsx
 // App.jsx
 import Profile from "./components/Profile";
 import Settings from "./components/Settings";
